@@ -2,6 +2,12 @@
 
 Esta es la aplicación de administración para la Tienda Dibujito. Está desarrollada en Java y se conecta a una base de datos MySQL para gestionar los datos de la tienda.
 
+
+# Descripcion
+Iniciado a finales del segundo ciclo
+
+El programa fue creado en el mes de diciembre del año 2025 a partir de un proyecto final de mi institucion,este proyecto guarda relacion con otro proyecto  denominado "Dibujito-store-web"
+
 ## 📋 Requisitos Previos
 
 Para ejecutar este proyecto, necesitarás tener instalado:
@@ -33,3 +39,7 @@ db.password=<TU_CONTRASEÑA>
 
 *   Nunca compartas tu archivo `config.properties` públicamente.
 *   El archivo `.gitignore` ya está configurado para evitar que las credenciales de la base de datos se suban a GitHub.
+
+# Aviso importante
+
+El programa no cuenta una api para hacer peticiones hacia la base de datos, es decir que conecta y realiza operaciones crud directamente
